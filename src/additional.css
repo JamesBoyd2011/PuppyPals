@@ -1,0 +1,19 @@
+#targetPuppy{
+    box-shadow: 1px 1px 8px #ccc;
+    padding: 8px;
+    text-align: left;
+    cursor:default
+}
+
+.puppies:hover{
+    border:1px solid #ccc;
+    background: red;
+    color:white;
+}
+
+.puppies{
+    border:1px solid #ccc;
+    cursor: pointer;
+    transition: 0.5s all;
+
+}
